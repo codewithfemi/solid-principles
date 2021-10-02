@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="LSP\Program.cs" />
+    <Compile Remove="OCP\Program.cs" />
+    <Compile Remove="SRP\Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="LSP\Program.cs" />
+    <None Include="OCP\Program.cs" />
+    <None Include="SRP\Program.cs" />
+  </ItemGroup>
+
+</Project>
