@@ -6,7 +6,7 @@ namespace SOLID.App
     {
         public void SendSms(string cellPhone)
         {
-            Console.WriteLine($"Logging cell phone {cellPhone}");
+            Console.WriteLine($"cell phone {cellPhone} was sent the sms");
             Console.WriteLine($"Sending SMS to cell phone: {cellPhone}");
         }
     }
