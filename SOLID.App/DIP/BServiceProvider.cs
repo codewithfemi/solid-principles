@@ -6,6 +6,7 @@ namespace SOLID.App
     {
         public void SendSms(string cellPhone)
         {
+            throw new Exception("Broken");
             Console.WriteLine($"Sending SMS to cell phone: {cellPhone}");
         }
     }
